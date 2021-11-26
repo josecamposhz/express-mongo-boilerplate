@@ -1,0 +1,8 @@
+POST http://localhost:3000/api/products HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Dinosaurio",
+    "description": "5 metros",
+    "price": 250
+}
