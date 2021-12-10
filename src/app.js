@@ -30,6 +30,6 @@ app.use("/api/products", require("./routes/products"));
 app.use("/public", express.static(path.join(__dirname, '..', '/public')));
 
 app.set("port", process.env.PORT || 3005);
-app.listen(app.get("port"), () => {
+app.listen(app.get("port"), function () {
   console.log(`App running at port: http://localhost:${app.get("port")}`);
 });
