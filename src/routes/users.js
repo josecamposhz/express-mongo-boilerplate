@@ -1,7 +1,7 @@
 const { Router } = require("express");
 const router = Router();
 
-const { ADMIN } = require("../helpers/Role");
+const { ADMIN } = require("../helpers/role");
 const UserController = require("../controllers/UserController");
 const verifyAuth = require("../middlewares/verifyAuth");
 
